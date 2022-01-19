@@ -1,0 +1,82 @@
+TITLE
+Ligand in vaccum
+
+	 >>> Generated with python lib function_libs utilities. (riniker group)
+	 >>> line_seperator: '\n'	 field_seperator: '\t'	 comments_char: '#'
+END
+BOUNDCOND
+# 	 NTB 	 NDFMIN
+ 	 1 	 3 	 
+END
+COMTRANSROT
+# 	 NSCM
+ 	 1000 	 
+END
+CONSTRAINT
+# 	 NTC
+ 	 2 	 
+# 	 NTCP 	 NTCP0(1)
+ 	 1 	 0.000100 	 
+# 	 NTCS 	 NTCS0(1)
+ 	 1 	 0.000100 	 
+END
+COVALENTFORM
+# 	 NTBBH 	 NTBAH 	 NTBDN
+ 	 1 	 1 	 1 	 
+END
+FORCE
+# 	 BONDS 	 ANGLES 	 IMPROPER 	 DIHEDRAL 	 ELECTROSTATIC 	 VDW
+ 	 1 	 1 	 1 	 1 	 1 	 1 	 
+# 	 NEGR 	 NRE
+ 	 1 	 3 	 
+END
+INITIALISE
+# 	 NTIVEL 	 NTISHK 	 NTINHT 	 NTINHB
+ 	 1 	 0 	 0 	 0 	 
+# 	 NTISHI 	 NTIRTC 	 NTICOM
+ 	 1 	 0 	 0 	 
+# 	 NTISTI
+ 	 1 	 
+# 	 IG 	 TEMPI
+ 	 210185 	 298.0 	 
+END
+NONBONDED
+# 	 NLRELE
+ 	 1 	 
+# 	 APPAK 	 RCRF 	 EPSRF 	 NSLFEXCL
+ 	 0.0 	 100000.0 	 1 	 1 	 
+# 	 NSHAPE 	 ASHAPE 	 NA2CLC 	 TOLA2 	 EPSLS
+ 	 3 	 1.0 	 2 	 1e-10 	 0 	 
+# 	 NKX 	 NKY 	 NKZ 	 KCUT
+ 	 10 	 10 	 10 	 100 	 
+# 	 NGX 	 NGY 	 NGZ 	 NASORD 	 NFDORD 	 NALIAS 	 NSPORD
+ 	 32 	 32 	 32 	 3 	 2 	 3 	 4 	 
+# 	 NQEVAL 	 FACCUR 	 NRDGRD 	 NWRGRD
+ 	 100000 	 1.6 	 0 	 0 	 
+# 	 NLRLJ 	 SLVDNS
+ 	 0 	 33.3 	 
+END
+PAIRLIST
+# 	 ALGORITHM 	 NSNB 	 RCUTP 	 RCUTL 	 SIZE 	 TYPE
+ 	 0 	 1 	 7.000000 	 7.000000 	 3.5 	 1 	 
+END
+PRINTOUT
+# 	 NTPR 	 NTPP
+ 	 1 	 0 	 
+END
+STEP
+# 	 NSTLIM 	 T 	 DT
+ 	 100 	 0.000000 	 0.001000 	 
+END
+STOCHDYN
+# 	 NTSD 	 NTFR 	 NSFR 	 NBREF 	 RCUTF 	 CFRIC 	 TEMPSD
+ 	 1 	 1 	 100 	 5 	 0.300000 	 91.000000 	 298.000000 	 
+END
+SYSTEM
+# 	 NPM 	 NSM
+ 	 1 	 0 	 
+END
+WRITETRAJ
+# 	 NTWX 	 NTWSE 	 NTWV 	 NTWF 	 NTWE 	 NTWG 	 NTWB
+ 	 1 	 0 	 0 	 0 	 1 	 0 	 0 	 
+END

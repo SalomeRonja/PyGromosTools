@@ -1,0 +1,18 @@
+TITLE
+	H2O created from RDKit	 >>> Generated with python lib function_libs utilities. (riniker group)	 >>> line_seperator: '\n'	 field_seperator: '\t'	 comments_char: '#'
+	 >>> Generated with python lib function_libs utilities. (riniker group)
+	 >>> line_seperator: '\n'	 field_seperator: '\t'	 comments_char: '#'
+END
+POSITION
+# 	 
+    1 H2O   O          1    0.000893466    0.040402222    0.000000000
+    1 H2O   H          2   -0.078731313   -0.018469915    0.000000000
+    1 H2O   H          3    0.077837847   -0.021932307    0.000000000
+END
+GENBOX
+    1
+    4.000000000    4.000000000    4.000000000
+   90.000000000   90.000000000   90.000000000
+    0.000000000    0.000000000    0.000000000
+    0.000000000    0.000000000    0.000000000
+END
